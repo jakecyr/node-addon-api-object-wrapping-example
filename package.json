@@ -1,0 +1,21 @@
+{
+  "name": "napi-wrapping-object-example",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jake Cyr",
+    "url": "https://jakecyr.com"
+  },
+  "description": "Node.js Addons Example Passing Around Wrapped Objects",
+  "main": "main.js",
+  "private": true,
+  "gypfile": true,
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^4.1.0"
+  },
+  "scripts": {
+    "test": "node hello.js",
+    "build": "node-gyp build",
+    "configure": "node-gyp configure"
+  }
+}
